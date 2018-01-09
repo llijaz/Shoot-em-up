@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3671be90a5fd649be52b9a5d28afe3, type: 3}
+  m_Name: Ship 3
+  m_EditorClassIdentifier: 
+  name: Ship 3
+  health: 125
+  shield: 125
+  shieldReloadDelay: 75
+  shieldReloadSpeed: 0.7
+  speed: 0.07
+  buttonCount: 2
+  sprites:
+  - {fileID: 21300020, guid: b7ad2144e2bd7074eae2c92a11908d79, type: 3}
+  - {fileID: 21300022, guid: b7ad2144e2bd7074eae2c92a11908d79, type: 3}
+  - {fileID: 21300024, guid: b7ad2144e2bd7074eae2c92a11908d79, type: 3}
+  - {fileID: 21300026, guid: b7ad2144e2bd7074eae2c92a11908d79, type: 3}
+  - {fileID: 21300028, guid: b7ad2144e2bd7074eae2c92a11908d79, type: 3}
+  buff1:
+  - {fileID: 11400000, guid: 6a8020eecca0b174eb122d6d754f5cce, type: 2}
+  - {fileID: 11400000, guid: 1a784dfb2d69d354ca632d5c8f3495da, type: 2}
+  buff2:
+  - {fileID: 11400000, guid: 98d8220e7dd1bc24ca72d80e334230b1, type: 2}
+  - {fileID: 11400000, guid: ce215dbca09889f449db81514f1e2103, type: 2}
+  - {fileID: 11400000, guid: da4ac13fcf72d2346be0981486eff3ac, type: 2}
+  buff3: []
